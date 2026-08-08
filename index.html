@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Anonymous project page for GADO-GS under double-blind review.">
-  <meta name="keywords" content="GADO-GS, 3D Gaussian Splatting, Anonymous Submission, Project Page">
+  <meta name="description" content="Project page for GADO-GS, a structure-first training framework for efficient and compact 3D Gaussian Splatting.">
+  <meta name="keywords" content="GADO-GS, 3D Gaussian Splatting, novel view synthesis, efficient reconstruction, project page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GADO-GS: Geometry-Appearance Decoupled Optimization for Efficient and Compact 3D Gaussian Splatting</title>
 
@@ -15,9 +15,7 @@
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
-
+  <link rel="stylesheet" href="./static/css/index.css?v=20260808-button-fix">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -36,27 +34,27 @@
               <span class="publication-title__line">for Efficient and Compact 3D Gaussian Splatting</span>
             </h1>
             <div class="publication-authors publication-review-note">
-              <span class="author-block publication-review-note__title">Anonymous Submission</span><br>
-              <span class="author-block publication-review-note__subtitle">Project page for double-blind review</span>
+              <span class="author-block publication-review-note__title">Zhijie Li<sup>1,*</sup>, Zhuo Qin<sup>1</sup>, Changhua Li<sup>1</sup>, Jie Zhang<sup>1</sup>, Jinyong Chang<sup>1</sup>, Shengjun Xu<sup>1</sup>, Yuan Gao<sup>2</sup></span><br>
+              <span class="author-block publication-review-note__subtitle"><sup>1</sup> School of Information and Control Engineering, Xi'an University of Architecture and Technology &nbsp; <sup>2</sup> School of Architecture, Xi'an University of Architecture and Technology &nbsp; * Corresponding author</span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <button class="publication-link--disabled" type="button" disabled>
+                  <button class="publication-link--disabled" type="button" disabled aria-label="Paper is under review">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
-                    <span>Paper</span>
+                    <span>Paper (Under Review)</span>
                   </button>
                 </span>
                 <span class="link-block">
-                  <button class="publication-link--disabled" type="button" disabled>
+                  <a class="publication-link" href="https://github.com/GADO-GS/GADO-GS" target="_blank" rel="noopener noreferrer">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code ( Coming Soon )</span>
-                  </button>
+                    <span>GitHub Project</span>
+                  </a>
                 </span>
               </div>
 
@@ -77,7 +75,7 @@
               data-right-video-1="./static/videos/bicycle_3dgs.mp4" data-left-label-1="Ours" data-right-label-1="3DGS"
               data-left-video-2="./static/videos/bicycle_ours.mp4"
               data-right-video-2="./static/videos/bicycle_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Bicycle" aria-pressed="true">
+              data-right-label-2="Speedy-Splat" data-label="Bicycle" aria-pressed="true">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/bicycle_thumb.jpg" alt="">
               </span>
@@ -87,7 +85,7 @@
               data-left-video-1="./static/videos/bonsai_ours.mp4" data-right-video-1="./static/videos/bonsai_3dgs.mp4"
               data-left-label-1="Ours" data-right-label-1="3DGS" data-left-video-2="./static/videos/bonsai_ours.mp4"
               data-right-video-2="./static/videos/bonsai_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Bonsai" aria-pressed="false">
+              data-right-label-2="Speedy-Splat" data-label="Bonsai" aria-pressed="false">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/bonsai_thumb.jpg" alt="">
               </span>
@@ -97,7 +95,7 @@
               data-left-video-1="./static/videos/garden_ours.mp4" data-right-video-1="./static/videos/garden_3dgs.mp4"
               data-left-label-1="Ours" data-right-label-1="3DGS" data-left-video-2="./static/videos/garden_ours.mp4"
               data-right-video-2="./static/videos/garden_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Garden" aria-pressed="false">
+              data-right-label-2="Speedy-Splat" data-label="Garden" aria-pressed="false">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/garden_thumb.jpg" alt="">
               </span>
@@ -107,7 +105,7 @@
               data-left-video-1="./static/videos/kitchen_ours.mp4" data-right-video-1="./static/videos/kitchen_3dgs.mp4"
               data-left-label-1="Ours" data-right-label-1="3DGS" data-left-video-2="./static/videos/kitchen_ours.mp4"
               data-right-video-2="./static/videos/kitchen_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Kitchen" aria-pressed="false">
+              data-right-label-2="Speedy-Splat" data-label="Kitchen" aria-pressed="false">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/kitchen_thumb.jpg" alt="">
               </span>
@@ -117,7 +115,7 @@
               data-left-video-1="./static/videos/stump_ours.mp4" data-right-video-1="./static/videos/stump_3dgs.mp4"
               data-left-label-1="Ours" data-right-label-1="3DGS" data-left-video-2="./static/videos/stump_ours.mp4"
               data-right-video-2="./static/videos/stump_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Stump" aria-pressed="false">
+              data-right-label-2="Speedy-Splat" data-label="Stump" aria-pressed="false">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/stump_thumb.jpg" alt="">
               </span>
@@ -127,7 +125,7 @@
               data-left-video-1="./static/videos/truck_ours.mp4" data-right-video-1="./static/videos/truck_3dgs.mp4"
               data-left-label-1="Ours" data-right-label-1="3DGS" data-left-video-2="./static/videos/truck_ours.mp4"
               data-right-video-2="./static/videos/truck_speedySplat.mp4" data-left-label-2="Ours"
-              data-right-label-2="SpeedySplat" data-label="Truck" aria-pressed="false">
+              data-right-label-2="Speedy-Splat" data-label="Truck" aria-pressed="false">
               <span class="scene-selector__preview" aria-hidden="true">
                 <img src="./static/videos/truck_thumb.jpg" alt="">
               </span>
@@ -249,7 +247,7 @@
                       <div class="visual-compare-header visual-compare-header--centered">
                         <div class="visual-compare-header__inner visual-compare-header__inner--centered">
                           <p class="visual-compare-header__title visual-compare-header__title--centered">Ours <span
-                              class="visual-compare-selector__vs">vs</span> SpeedySplat</p>
+                              class="visual-compare-selector__vs">vs</span> Speedy-Splat</p>
                         </div>
                       </div>
                       <div class="scene-compare-wrapper" style="--scene-compare-aspect-ratio: 1.507538;">
@@ -283,7 +281,7 @@
                                 class="scene-compare-metrics__label">Train</span></span>
                           </div>
                           <span class="scene-compare-badge scene-compare-badge--right"
-                            data-compare-right-label>SpeedySplat</span>
+                            data-compare-right-label>Speedy-Splat</span>
                         </div>
                         <div class="scene-compare-overlay" data-compare-overlay>
                           <div class="scene-compare-layer scene-compare-layer--overlay">
@@ -357,8 +355,8 @@
           <div class="scene-showcase-note-shell">
             <div class="scene-showcase-note-panel">
               <p class="scene-showcase-note">
-                Compared with 3DGS and SpeedySplat, GADO-GS retains competitive visual fidelity while training
-                much faster and frequently requiring fewer Gaussians to represent the scene.
+                Compared with 3DGS and Speedy-Splat, GADO-GS retains competitive visual fidelity while substantially
+                reducing training time and, depending on the scene, using fewer Gaussians for the final representation.
               </p>
             </div>
           </div>
@@ -375,10 +373,10 @@
           <div class="results-divider" aria-hidden="true"></div>
           <div class="content has-text-justified results-summary">
             <p>
-              We evaluate GADO-GS across diverse benchmark datasets and representative real-world scenes. Across the
-              quantitative comparisons and per-scene analyses below, our method consistently improves training
-              efficiency, rendering throughput, and model compactness while maintaining competitive reconstruction
-              quality.
+              We evaluate GADO-GS across the Mip-NeRF 360, Tanks &amp; Temples, and Deep Blending benchmarks. The
+              dataset-level tables report reconstruction quality together with training time, peak VRAM, rendering
+              throughput, model storage, and the final Gaussian count. Representative per-scene views complement
+              these averages with training-time, FPS, and Gaussian-count comparisons against 3DGS and Speedy-Splat.
             </p>
           </div>
 
@@ -399,9 +397,9 @@
                     <span class="is-sr-only">Quality-Speed and Time-Memory Trade-Offs</span>
                   </button>
                   <button class="results-selector__item results-selector__item--efficiency" type="button"
-                    data-results-item data-display-title="Per-Scene Training Time"
+                    data-results-item data-display-title="Representative Per-Scene Training Time"
                     data-full-src="./static/images/results/per_scene_train_time.png"
-                    data-caption="Per-scene training time across representative benchmark scenes, comparing Ours with 3DGS and Speedy-Splat (lower is better).">
+                    data-caption="Representative per-scene training times, comparing GADO-GS with 3DGS and Speedy-Splat (lower is better).">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">Train Time</span>
                       <span class="results-selector__card-meta">Per-scene training time for efficiency
@@ -410,9 +408,9 @@
                     <span class="is-sr-only">Per-Scene Training Time Results</span>
                   </button>
                   <button class="results-selector__item results-selector__item--efficiency" type="button"
-                    data-results-item data-display-title="Per-Scene FPS"
+                    data-results-item data-display-title="Representative Per-Scene FPS"
                     data-full-src="./static/images/results/per_scene_fps.png"
-                    data-caption="Per-scene FPS across representative benchmark scenes, comparing Ours with 3DGS and Speedy-Splat (higher is better).">
+                    data-caption="Representative per-scene rendering throughput, comparing GADO-GS with 3DGS and Speedy-Splat (higher is better).">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">FPS</span>
                       <span class="results-selector__card-meta">Per-scene rendering FPS for throughput
@@ -421,9 +419,9 @@
                     <span class="is-sr-only">Per-Scene FPS Results</span>
                   </button>
                   <button class="results-selector__item results-selector__item--efficiency" type="button"
-                    data-results-item data-display-title="Per-Scene Gaussians"
+                    data-results-item data-display-title="Representative Per-Scene Gaussians"
                     data-full-src="./static/images/results/per_scene_gaussian_count.png"
-                    data-caption="Per-scene Gaussian counts across representative benchmark scenes, comparing Ours with 3DGS and Speedy-Splat (lower is better).">
+                    data-caption="Representative per-scene final Gaussian counts, comparing GADO-GS with 3DGS and Speedy-Splat (lower is better).">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">Gaussians</span>
                       <span class="results-selector__card-meta">Per-scene Gaussian counts for compactness
@@ -433,19 +431,19 @@
                   </button>
                   <button class="results-selector__item results-selector__item--benchmark" type="button"
                     data-results-item data-display-type="template" data-template-id="results-table-mip-template"
-                    data-display-title="Mip-NeRF360 Quantitative Comparison"
-                    data-caption="Average quantitative results on the Mip-NeRF360 dataset, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
+                    data-display-title="Mip-NeRF 360 Quantitative Comparison"
+                    data-caption="Dataset-average results on Mip-NeRF 360, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
                     <span class="results-selector__card" aria-hidden="true">
-                      <span class="results-selector__card-title">Mip-NeRF360</span>
+                      <span class="results-selector__card-title">Mip-NeRF 360</span>
                       <span class="results-selector__card-meta">Average efficiency and quality metrics on
-                        Mip-NeRF360.</span>
+                        Mip-NeRF 360.</span>
                     </span>
-                    <span class="is-sr-only">Mip-NeRF360 Quantitative Table</span>
+                    <span class="is-sr-only">Mip-NeRF 360 Quantitative Table</span>
                   </button>
                   <button class="results-selector__item results-selector__item--benchmark" type="button"
                     data-results-item data-display-type="template" data-template-id="results-table-tnt-template"
                     data-display-title="Tanks and Temples Quantitative Comparison"
-                    data-caption="Average quantitative results on the Tanks and Temples dataset, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
+                    data-caption="Dataset-average results on Tanks &amp; Temples, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">Tanks &amp; Temples</span>
                       <span class="results-selector__card-meta">Average efficiency and quality metrics on Tanks &amp;
@@ -456,7 +454,7 @@
                   <button class="results-selector__item results-selector__item--benchmark" type="button"
                     data-results-item data-display-type="template" data-template-id="results-table-db-template"
                     data-display-title="Deep Blending Quantitative Comparison"
-                    data-caption="Average quantitative results on the Deep Blending dataset, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
+                    data-caption="Dataset-average results on Deep Blending, covering efficiency, compactness, memory usage, and reconstruction-quality metrics.">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">Deep Blending</span>
                       <span class="results-selector__card-meta">Average efficiency and quality metrics on Deep
@@ -466,8 +464,8 @@
                   </button>
                   <button class="results-selector__item results-selector__item--ablation" type="button"
                     data-results-item data-display-type="template" data-template-id="results-table-ablation-template"
-                    data-display-title="Mip-NeRF360 Kitchen Ablation Study"
-                    data-caption="Component-wise ablation on the Mip-NeRF360 kitchen scene. Entries marked with w/o report results after removing the corresponding module, highlighting each component's contribution to efficiency, compactness, and reconstruction quality.">
+                    data-display-title="Mip-NeRF 360 Kitchen Ablation Study"
+                    data-caption="Ablation on the Mip-NeRF 360 Kitchen scene. Each w/o variant removes the indicated mechanism from the complete configuration; w/o VGC removes both the VGC consistency term and its density-control feedback.">
                     <span class="results-selector__card" aria-hidden="true">
                       <span class="results-selector__card-title">Ablation</span>
                       <span class="results-selector__card-meta">Module-wise effects on efficiency and quality.</span>
@@ -485,7 +483,7 @@
 
           <template id="results-table-mip-template">
             <div class="results-display__table-scroll">
-              <table class="results-table results-table--wide" aria-label="Mip-NeRF360 quantitative comparison">
+              <table class="results-table results-table--wide" aria-label="Mip-NeRF 360 quantitative comparison">
                 <thead>
                   <tr>
                     <th scope="col">Method</th>
@@ -504,7 +502,7 @@
                     <th scope="row" class="results-table__method">Scaffold-GS</th>
                     <td>1791.7s</td>
                     <td>10682.0MB</td>
-                    <td>141</td>
+                    <td>141.3</td>
                     <td>171.7MB</td>
                     <td>570K</td>
                     <td class="is-best">27.75</td>
@@ -515,7 +513,7 @@
                     <th scope="row" class="results-table__method">LightGaussian</th>
                     <td>1839.4s</td>
                     <td>16207.1MB</td>
-                    <td>159</td>
+                    <td>159.4</td>
                     <td>266.9MB</td>
                     <td>1128K</td>
                     <td>27.08</td>
@@ -526,7 +524,7 @@
                     <th scope="row" class="results-table__method">Compact 3DGS</th>
                     <td>2637.3s</td>
                     <td>12722.4MB</td>
-                    <td>159</td>
+                    <td>159.1</td>
                     <td>124.7MB</td>
                     <td>1435K</td>
                     <td>26.99</td>
@@ -537,7 +535,7 @@
                     <th scope="row" class="results-table__method">Speedy-Splat</th>
                     <td class="is-second">1140.7s</td>
                     <td class="is-second">9976.2MB</td>
-                    <td class="is-second">832</td>
+                    <td class="is-second">831.5</td>
                     <td class="is-best">74.8MB</td>
                     <td class="is-best">316K</td>
                     <td>26.97</td>
@@ -548,23 +546,23 @@
                     <th scope="row" class="results-table__method">3DGS</th>
                     <td>2072.9s</td>
                     <td>12344.9MB</td>
-                    <td>123</td>
+                    <td>123.3</td>
                     <td>646.4MB</td>
                     <td>2733K</td>
-                    <td class="is-second">27.53</td>
+                    <td>27.48</td>
                     <td class="is-best">0.816</td>
                     <td class="is-best">0.215</td>
                   </tr>
                   <tr class="results-table__row--ours">
                     <th scope="row" class="results-table__method">Ours</th>
                     <td class="is-best">180.7s</td>
-                    <td class="is-best">6567.6MB</td>
-                    <td class="is-best">892</td>
-                    <td class="is-second">89.3MB</td>
-                    <td class="is-second">378K</td>
-                    <td>27.48</td>
+                    <td class="is-best">6049.1MB</td>
+                    <td class="is-best">892.3</td>
+                    <td class="is-second">89.0MB</td>
+                    <td class="is-second">362K</td>
+                    <td class="is-second">27.49</td>
                     <td>0.798</td>
-                    <td>0.261</td>
+                    <td>0.260</td>
                   </tr>
                 </tbody>
               </table>
@@ -592,7 +590,7 @@
                     <th scope="row" class="results-table__method">Scaffold-GS</th>
                     <td>800.5s</td>
                     <td class="is-second">3949.0MB</td>
-                    <td>216</td>
+                    <td>215.6</td>
                     <td>76.7MB</td>
                     <td>254K</td>
                     <td class="is-second">24.04</td>
@@ -603,7 +601,7 @@
                     <th scope="row" class="results-table__method">LightGaussian</th>
                     <td>1104.3s</td>
                     <td>11799.0MB</td>
-                    <td>200</td>
+                    <td>200.1</td>
                     <td>148.2MB</td>
                     <td>627K</td>
                     <td>23.10</td>
@@ -614,7 +612,7 @@
                     <th scope="row" class="results-table__method">Compact 3DGS</th>
                     <td>1294.4s</td>
                     <td>7033.0MB</td>
-                    <td>219</td>
+                    <td>219.4</td>
                     <td>92.8MB</td>
                     <td>838K</td>
                     <td>23.33</td>
@@ -625,7 +623,7 @@
                     <th scope="row" class="results-table__method">Speedy-Splat</th>
                     <td class="is-second">703.7s</td>
                     <td>5307.0MB</td>
-                    <td class="is-best">1095</td>
+                    <td class="is-best">1095.4</td>
                     <td class="is-best">43.0MB</td>
                     <td class="is-best">182K</td>
                     <td>23.47</td>
@@ -636,7 +634,7 @@
                     <th scope="row" class="results-table__method">3DGS</th>
                     <td>1022.8s</td>
                     <td>7020.0MB</td>
-                    <td>175</td>
+                    <td>175.4</td>
                     <td>372.2MB</td>
                     <td>1574K</td>
                     <td>23.80</td>
@@ -647,11 +645,11 @@
                     <th scope="row" class="results-table__method">Ours</th>
                     <td class="is-best">149.6s</td>
                     <td class="is-best">3914.0MB</td>
-                    <td class="is-second">996</td>
+                    <td class="is-second">996.0</td>
                     <td class="is-second">57.3MB</td>
                     <td class="is-second">242K</td>
                     <td class="is-best">24.19</td>
-                    <td>0.842</td>
+                    <td class="is-second">0.842</td>
                     <td>0.208</td>
                   </tr>
                 </tbody>
@@ -680,7 +678,7 @@
                     <th scope="row" class="results-table__method">Scaffold-GS</th>
                     <td>1087.1s</td>
                     <td class="is-second">7272.0MB</td>
-                    <td>283</td>
+                    <td>282.5</td>
                     <td class="is-second">54.8MB</td>
                     <td class="is-best">182K</td>
                     <td class="is-best">30.29</td>
@@ -691,7 +689,7 @@
                     <th scope="row" class="results-table__method">LightGaussian</th>
                     <td>1554.7s</td>
                     <td>24467.0MB</td>
-                    <td>164</td>
+                    <td>164.0</td>
                     <td>178.9MB</td>
                     <td>756K</td>
                     <td>27.10</td>
@@ -702,7 +700,7 @@
                     <th scope="row" class="results-table__method">Compact 3DGS</th>
                     <td>1875.0s</td>
                     <td>10606.0MB</td>
-                    <td>210</td>
+                    <td>210.3</td>
                     <td>104.2MB</td>
                     <td>1051K</td>
                     <td class="is-second">29.85</td>
@@ -713,7 +711,7 @@
                     <th scope="row" class="results-table__method">Speedy-Splat</th>
                     <td class="is-second">964.5s</td>
                     <td>7895.0MB</td>
-                    <td class="is-second">998</td>
+                    <td class="is-second">997.5</td>
                     <td>59.2MB</td>
                     <td>250K</td>
                     <td>29.77</td>
@@ -724,7 +722,7 @@
                     <th scope="row" class="results-table__method">3DGS</th>
                     <td>1690.8s</td>
                     <td>12147.0MB</td>
-                    <td>130</td>
+                    <td>129.8</td>
                     <td>587.6MB</td>
                     <td>2484K</td>
                     <td>29.76</td>
@@ -735,7 +733,7 @@
                     <th scope="row" class="results-table__method">Ours</th>
                     <td class="is-best">140.5s</td>
                     <td class="is-best">5445.0MB</td>
-                    <td class="is-best">1128</td>
+                    <td class="is-best">1127.5</td>
                     <td class="is-best">51.8MB</td>
                     <td class="is-second">219K</td>
                     <td class="is-second">29.85</td>
@@ -749,14 +747,12 @@
 
           <template id="results-table-ablation-template">
             <div class="results-display__table-scroll">
-              <table class="results-table results-table--wide" aria-label="Mip-NeRF360 kitchen ablation study">
+              <table class="results-table results-table--wide" aria-label="Mip-NeRF 360 Kitchen ablation study">
                 <thead>
                   <tr>
                     <th scope="col">Method</th>
                     <th scope="col">Time <span class="results-table__metric-dir">&darr;</span></th>
-                    <th scope="col">VRAM <span class="results-table__metric-dir">&darr;</span></th>
                     <th scope="col">FPS <span class="results-table__metric-dir">&uarr;</span></th>
-                    <th scope="col">Size <span class="results-table__metric-dir">&darr;</span></th>
                     <th scope="col">Gaussians <span class="results-table__metric-dir">&darr;</span></th>
                     <th scope="col">PSNR <span class="results-table__metric-dir">&uarr;</span></th>
                     <th scope="col">SSIM <span class="results-table__metric-dir">&uarr;</span></th>
@@ -767,9 +763,7 @@
                   <tr>
                     <th scope="row" class="results-table__method">vanilla 3DGS</th>
                     <td>2645.7s</td>
-                    <td>13822.0MB</td>
                     <td>118</td>
-                    <td>377.3MB</td>
                     <td>1595K</td>
                     <td>30.74</td>
                     <td>0.926</td>
@@ -778,9 +772,7 @@
                   <tr class="results-table__row--group-break">
                     <th scope="row" class="results-table__method">w/o GADO</th>
                     <td>2014.7s</td>
-                    <td class="is-second">6430.8MB</td>
                     <td class="is-second">648</td>
-                    <td class="is-second">71.8MB</td>
                     <td>304K</td>
                     <td>31.16</td>
                     <td>0.923</td>
@@ -789,9 +781,7 @@
                   <tr>
                     <th scope="row" class="results-table__method">w/o PSA</th>
                     <td>1674.0s</td>
-                    <td class="is-best">6429.4MB</td>
                     <td>639</td>
-                    <td class="is-best">71.7MB</td>
                     <td class="is-second">302K</td>
                     <td class="is-second">31.20</td>
                     <td>0.923</td>
@@ -800,20 +790,16 @@
                   <tr>
                     <th scope="row" class="results-table__method">w/o VGC</th>
                     <td class="is-best">229.7s</td>
-                    <td>7000.1MB</td>
                     <td>101</td>
-                    <td>162.2MB</td>
                     <td>686K</td>
                     <td>31.00</td>
                     <td class="is-second">0.927</td>
                     <td class="is-second">0.128</td>
                   </tr>
                   <tr class="results-table__row--group-break results-table__row--ours">
-                    <th scope="row" class="results-table__method">Full model (Ours)</th>
+                    <th scope="row" class="results-table__method">Full (Ours)</th>
                     <td class="is-second">237.3s</td>
-                    <td>6713.5MB</td>
                     <td class="is-best">674</td>
-                    <td>90.1MB</td>
                     <td class="is-best">255K</td>
                     <td class="is-best">31.85</td>
                     <td class="is-best">0.929</td>
@@ -855,27 +841,22 @@
           <div class="abstract-divider" aria-hidden="true"></div>
           <div class="content has-text-justified abstract-copy">
             <p>
-              3D Gaussian Splatting (3DGS) has emerged as a compelling representation for real-time novel view synthesis
-              due to its high rendering quality and efficient rasterization. However, vanilla 3DGS jointly optimizes
-              geometry and appearance under a photometric objective, often leading to geometry-appearance ambiguity
-              during training, where appearance compensates for inaccurate geometry by fitting view-dependent effects.
-              This ambiguity leads to unstable optimization, texture-baked geometry, and redundant primitive growth,
-              affecting both efficiency and compactness. To address this issue, we propose GADO-GS, a structure-first
-              training framework that reduces this ambiguity within the standard 3DGS pipeline. The core idea is to let
-              the scene structure stabilize before the high-frequency appearance is fully expressed, while using
-              cross-view geometric consistency to constrain Gaussian growth. By improving training dynamics at the
-              source instead of relying on post-hoc compression, GADO-GS learns a more coherent and less redundant
-              Gaussian representation. Across the three benchmark datasets, GADO-GS provides on average 10.1x faster
-              training, 7.2x higher rendering throughput, and 8.4x smaller models than vanilla 3DGS, while maintaining
-              competitive reconstruction quality.
+              3D Gaussian Splatting (3DGS) enables high-quality novel view synthesis with real-time rendering, but its
+              representation construction remains computationally expensive and often produces an unnecessarily large
+              Gaussian population. We identify an important source of this inefficiency as geometry-appearance
+              competition: geometry-related parameters, view-dependent appearance, and adaptive density control
+              respond to the same image-space residual, allowing premature appearance fitting to interfere with
+              structural optimization and encourage redundant Gaussian growth. To address this problem, we propose
+              GADO-GS, a unified structure-first training framework that coordinates differentiated parameter updates,
+              progressive spherical-harmonic activation, and auxiliary-view geometric consistency. This design
+              prioritizes structural formation before the full appearance capacity is released and guides the Gaussian
+              population toward a compact representation during training. It introduces no modification to the standard
+              Gaussian representation or rasterizer at inference. Experiments on Mip-NeRF 360, Tanks &amp; Temples, and
+              Deep Blending show that GADO-GS reduces wall-clock training time by 10.1&times;, increases rendering
+              throughput by 7.2&times;, and reduces model storage by 8.4&times; relative to vanilla 3DGS, while maintaining
+              competitive reconstruction quality. GADO-GS therefore improves the quality-efficiency-compactness
+              trade-off of 3DGS at the representation-construction stage, without relying on post-training compression.
             </p>
-          </div>
-          <div class="publication-video publication-video--placeholder" aria-label="Teaser video placeholder">
-            <div class="publication-video__placeholder">
-              <span class="publication-video__eyebrow">Placeholder</span>
-              <span class="publication-video__title">Teaser Video</span>
-              <span class="publication-video__subtitle">Coming Soon</span>
-            </div>
           </div>
         </div>
       </div>
@@ -894,9 +875,11 @@
           </figure>
           <div class="content method-overview-copy">
             <p class="method-overview-legend">
-              GADO-GS reformulates standard 3DGS as a structure-first training pipeline: geometry and appearance are
-              optimized with decoupled schedules, higher-order SH bands are activated progressively, and cross-view
-              geometric consistency feeds back into density control to suppress ambiguity-driven redundancy.
+              GADO-GS coordinates parameter updates, appearance capacity, and Gaussian population evolution within the
+              standard 3DGS training pipeline. At each iteration, one primary RGB view and two neighboring auxiliary
+              views are sampled. GADO assigns role-specific update schedules, PSA progressively activates higher-order
+              spherical-harmonic bands, and VGC derives a depth discrepancy between projected Gaussian centers and
+              auxiliary-view rendered surfaces for consistency regularization and adaptive density evolution.
             </p>
             <div class="method-overview-steps">
               <div class="method-overview-step">
@@ -905,9 +888,8 @@
                   <span class="method-overview-step__number">1</span>
                 </div>
                 <p class="method-overview-step__text">
-                  <strong>Geometry-Appearance Decoupled Optimization.</strong> Geometry and appearance are optimized
-                  with distinct schedules so that scene structure can stabilize before high-frequency appearance
-                  fitting begins to dominate training.
+                  <strong>Geometry-Appearance Decoupled Optimization.</strong> GADO applies role-specific update
+                  schedules to geometry-related and appearance parameters within the shared photometric objective.
                 </p>
               </div>
               <div class="method-overview-step">
@@ -916,9 +898,9 @@
                   <span class="method-overview-step__number">2</span>
                 </div>
                 <p class="method-overview-step__text">
-                  <strong>Progressive SH Activation.</strong> Higher-order SH bands are progressively activated during
-                  training, allowing view-dependent appearance details to emerge only after the geometry becomes
-                  sufficiently stable.
+                  <strong>Progressive SH Activation.</strong> PSA releases higher-order spherical-harmonic bands in a
+                  predefined coarse-to-fine order: degrees 1, 2, and 3 are activated at iterations 1,000, 2,000, and
+                  3,000, respectively.
                 </p>
               </div>
               <div class="method-overview-step">
@@ -927,9 +909,9 @@
                   <span class="method-overview-step__number">3</span>
                 </div>
                 <p class="method-overview-step__text">
-                  <strong>View-consistent Geometry Constraint.</strong> Cross-view geometric consistency regularizes
-                  the learned structure and feeds back into adaptive density control, reducing floaters and redundant
-                  Gaussian growth for a more coherent and compact representation.
+                  <strong>View-consistent Geometry Constraint.</strong> VGC compares projected-center depth with
+                  auxiliary-view rendered-surface depth from two neighboring views. The resulting per-Gaussian signal
+                  contributes to consistency regularization and VGC-gated density evolution.
                 </p>
               </div>
             </div>
@@ -946,8 +928,8 @@
           <div class="method-stage-panel__intro">
             <h3 class="method-stage-panel__title" id="method-stage-title">Progressive SH Activation</h3>
             <p class="method-stage-panel__summary">
-              We visualize how higher-order SH components are progressively activated during training, leading to
-              sharper appearance while preserving stable scene structure.
+              We visualize how higher-order SH components are progressively activated during training, providing a
+              coarse-to-fine appearance trajectory within the standard Gaussian representation.
             </p>
           </div>
           <div class="method-stage-panel__content">
@@ -1023,7 +1005,7 @@
                     data-right-image-4="./static/images/comparisons/bicycle_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/bicycle_ours.webp"
                     data-right-image-5="./static/images/comparisons/bicycle_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Bicycle"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Bicycle"
                     aria-pressed="true">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/bicycle_thumb.webp" alt="" decoding="async">
@@ -1041,7 +1023,7 @@
                     data-right-image-4="./static/images/comparisons/bonsai_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/bonsai_ours.webp"
                     data-right-image-5="./static/images/comparisons/bonsai_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Bonsai"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Bonsai"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/bonsai_thumb.webp" alt="" decoding="async">
@@ -1059,7 +1041,7 @@
                     data-right-image-4="./static/images/comparisons/counter_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/counter_ours.webp"
                     data-right-image-5="./static/images/comparisons/counter_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Counter"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Counter"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/counter_thumb.webp" alt="" decoding="async">
@@ -1077,7 +1059,7 @@
                     data-right-image-4="./static/images/comparisons/flowers_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/flowers_ours.webp"
                     data-right-image-5="./static/images/comparisons/flowers_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Flowers"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Flowers"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/flowers_thumb.webp" alt="" decoding="async">
@@ -1095,7 +1077,7 @@
                     data-right-image-4="./static/images/comparisons/garden_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/garden_ours.webp"
                     data-right-image-5="./static/images/comparisons/garden_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Garden"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Garden"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/garden_thumb.webp" alt="" decoding="async">
@@ -1113,7 +1095,7 @@
                     data-right-image-4="./static/images/comparisons/kitchen_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/kitchen_ours.webp"
                     data-right-image-5="./static/images/comparisons/kitchen_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Kitchen"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Kitchen"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/kitchen_thumb.webp" alt="" decoding="async">
@@ -1131,7 +1113,7 @@
                     data-right-image-4="./static/images/comparisons/room_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/room_ours.webp"
                     data-right-image-5="./static/images/comparisons/room_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Room"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Room"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/room_thumb.webp" alt="" decoding="async">
@@ -1149,7 +1131,7 @@
                     data-right-image-4="./static/images/comparisons/stump_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/stump_ours.webp"
                     data-right-image-5="./static/images/comparisons/stump_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Stump"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Stump"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/stump_thumb.webp" alt="" decoding="async">
@@ -1168,7 +1150,7 @@
                     data-left-label-4="Ours" data-right-label-4="LightGaussian"
                     data-left-image-5="./static/images/comparisons/treehill_ours.webp"
                     data-right-image-5="./static/images/comparisons/treehill_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Treehill"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Treehill"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/treehill_thumb.webp" alt="" decoding="async">
@@ -1186,7 +1168,7 @@
                     data-right-image-4="./static/images/comparisons/train_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/train_ours.webp"
                     data-right-image-5="./static/images/comparisons/train_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Train"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Train"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/train_thumb.webp" alt="" decoding="async">
@@ -1204,7 +1186,7 @@
                     data-right-image-4="./static/images/comparisons/truck_lightgaussian.webp" data-left-label-4="Ours"
                     data-right-label-4="LightGaussian" data-left-image-5="./static/images/comparisons/truck_ours.webp"
                     data-right-image-5="./static/images/comparisons/truck_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Truck"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Truck"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/truck_thumb.webp" alt="" decoding="async">
@@ -1224,7 +1206,7 @@
                     data-left-label-4="Ours" data-right-label-4="LightGaussian"
                     data-left-image-5="./static/images/comparisons/drjohnson_ours.webp"
                     data-right-image-5="./static/images/comparisons/drjohnson_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Dr. Johnson"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Dr. Johnson"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/drjohnson_thumb.webp" alt="" decoding="async">
@@ -1243,7 +1225,7 @@
                     data-left-label-4="Ours" data-right-label-4="LightGaussian"
                     data-left-image-5="./static/images/comparisons/playroom_ours.webp"
                     data-right-image-5="./static/images/comparisons/playroom_scaffoldGS.webp" data-left-label-5="Ours"
-                    data-right-label-5="Scaffold-GS" data-right-label-2="SpeedySplat" data-label="Playroom"
+                    data-right-label-5="Scaffold-GS" data-right-label-2="Speedy-Splat" data-label="Playroom"
                     aria-pressed="false">
                     <span class="scene-selector__preview" aria-hidden="true">
                       <img src="./static/images/comparisons/thumbs/playroom_thumb.webp" alt="" decoding="async">
@@ -1303,7 +1285,7 @@
                         <span class="visual-compare-selector__value" data-compare-method-value>
                           Ours
                           <span class="visual-compare-selector__vs">vs</span>
-                          SpeedySplat
+                          Speedy-Splat
                         </span>
                       </div>
                       <button class="visual-compare-selector__button visual-compare-selector__button--next"
@@ -1317,9 +1299,9 @@
                   <div class="scene-compare-layer scene-compare-layer--base">
                     <img class="scene-compare-image scene-compare-image--right" data-compare-image-right
                       src="./static/images/comparisons/bicycle_speedySplat.webp"
-                      alt="SpeedySplat qualitative comparison image." decoding="async">
+                      alt="Speedy-Splat qualitative comparison image." decoding="async">
                     <span class="scene-compare-badge scene-compare-badge--right"
-                      data-compare-right-label>SpeedySplat</span>
+                      data-compare-right-label>Speedy-Splat</span>
                   </div>
                   <div class="scene-compare-overlay" data-compare-overlay>
                     <div class="scene-compare-layer scene-compare-layer--overlay">
@@ -1346,12 +1328,13 @@
     <div class="container is-max-desktop">
       <div class="content has-text-centered">
         <div class="project-footer__icons">
-          <button class="icon-link icon-link--disabled" type="button" disabled aria-label="Paper unavailable">
+          <button class="icon-link icon-link--disabled" type="button" disabled aria-label="Paper under review">
             <i class="fas fa-file-pdf"></i>
           </button>
-          <button class="icon-link icon-link--disabled" type="button" disabled aria-label="Code unavailable">
+          <a class="icon-link" href="https://github.com/GADO-GS/GADO-GS" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub project">
             <i class="fab fa-github"></i>
-          </button>
+          </a>
         </div>
         <p class="project-footer__note">
           Website template adapted from the open-sourced <a href="https://nerfies.github.io/" target="_blank"

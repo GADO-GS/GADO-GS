@@ -17,7 +17,7 @@ var SCENE_COMPARE_METRICS = {
     speedy_splat: { gaussianCount: 505340, fps: 718.6418, trainTimeSec: 980.6 }
   },
   kitchen: {
-    ours: { gaussianCount: 391535, fps: 674.1119, trainTimeSec: 237.26 },
+    ours: { gaussianCount: 254729, fps: 674.1119, trainTimeSec: 237.26 },
     gaussian_splatting: { gaussianCount: 1595375, fps: 117.5555, trainTimeSec: 2645.71 },
     speedy_splat: { gaussianCount: 115365, fps: 939.8578, trainTimeSec: 1366.44 }
   },
@@ -1674,7 +1674,7 @@ function initImageComparisons() {
       },
       {
         methodOptions: [
-          buildSelectableMethodOption(2, button.getAttribute('data-right-label-2') || button.getAttribute('data-right-label-1') || 'SpeedySplat'),
+          buildSelectableMethodOption(2, button.getAttribute('data-right-label-2') || button.getAttribute('data-right-label-1') || 'Speedy-Splat'),
           buildSelectableMethodOption(3, 'Compact-3DGS'),
           buildSelectableMethodOption(4, 'LightGaussian'),
           buildSelectableMethodOption(5, 'Scaffold-GS')
