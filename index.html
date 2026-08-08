@@ -875,11 +875,11 @@
           </figure>
           <div class="content method-overview-copy">
             <p class="method-overview-legend">
-              GADO-GS coordinates parameter updates, appearance capacity, and Gaussian population evolution within the
-              standard 3DGS training pipeline. At each iteration, one primary RGB view and two neighboring auxiliary
-              views are sampled. GADO assigns role-specific update schedules, PSA progressively activates higher-order
-              spherical-harmonic bands, and VGC derives a depth discrepancy between projected Gaussian centers and
-              auxiliary-view rendered surfaces for consistency regularization and adaptive density evolution.
+              Pipeline of GADO-GS. GADO applies differentiated schedules to geometry-related and appearance parameters,
+              PSA progressively releases higher-order SH capacity, and VGC incorporates auxiliary-view rendered-depth
+              consistency into geometric regularization and adaptive density control. Their coordination establishes a
+              structure-first training process that reduces geometry-appearance ambiguity and promotes a compact Gaussian
+              representation, while leaving the standard representation and rasterizer unchanged at inference.
             </p>
             <div class="method-overview-steps">
               <div class="method-overview-step">
